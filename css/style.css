@@ -1,0 +1,41 @@
+.poster-main{
+	width:1000px;
+	height:270px;
+	margin:10px auto;
+
+	position:relative;
+}
+.poster-list{
+	list-style:none;
+	height:270px;
+	margin:0;
+	padding:0;
+}
+a,img{
+	display: block;
+}
+.poster-btn{
+	position:absolute;
+	top: 0;
+	width:50px;
+	text-align:center;
+	height:50px;
+	font-size:40px;
+	font-weight:bold;
+	opacity:0.8;
+	
+
+}
+.poster-prev-btn{
+	left:0;
+	background: url('../img/btn_l.png') no-repeat center;
+}
+.poster-next-btn{
+	right:0;
+	background: url('../img/btn_r.png') no-repeat center;
+}
+.poster-item{
+	position:absolute;
+	top:0;
+	left:80px;
+}
